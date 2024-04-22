@@ -1,0 +1,14 @@
+:root {
+  --orangeDark: #905922;
+  --orange: #d4a373;
+  --orangeLight: #faedcd;
+  --bgLight: #fefae0;
+  --greenLight: #fefae0;
+  --green: #ccd5ae;
+  --textDark: #151515;
+  --textLight: #fcfcf3;
+}
+
+#header {
+  background-color: black;
+}
