@@ -1,0 +1,30 @@
+:root {
+    --xl-width: 1194px;
+
+    --dark-clr: #151515;
+    --light-clr: #fcfcf3;
+    --green-deep-clr: #ccd5ae;
+    --green-light-clr: #e9edc9;
+    --bg-clr: #fefae0;
+    --brand-light-clr: #faedcd;
+    --brand-clr: #d4a373;
+    --brand-dark-clr: #905922;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: var(--dark-clr);
+    background-color: var(--light-clr);
+}
+
+.wrapper {
+    max-width: var(--xl-width);
+    margin-inline: auto;
+}
