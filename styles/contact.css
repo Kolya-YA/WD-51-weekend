@@ -30,5 +30,5 @@ font-family: JejuHallasan;
     object-fit: cover;
     object-position: center;
     display: block;
-   
+   block-size: 500px 300px;
 }
