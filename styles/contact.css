@@ -1,0 +1,34 @@
+*{
+    background-color: antiquewhite;
+}
+.header{
+text-align: center;
+color: #905922;
+font-family: JejuHallasan;
+
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.contact-main{
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.input-field{
+    border: 2px solid#905922;
+    border-left: 0;
+    border-radius: 0 12px 12px 0;
+     
+}
+.img-contact{
+    margin-bottom: -10px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+   
+}
