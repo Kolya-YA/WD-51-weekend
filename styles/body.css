@@ -45,3 +45,11 @@ body {
 .main {
     padding-block-start: 5rem;
 }
+
+h1 {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    color: var(--brand-dark-clr)
+}
