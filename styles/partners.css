@@ -13,12 +13,14 @@
 }
 section .partner-cards{
 background-color: white;
-width: 60px;
+width: 90px;
 border-radius: 8px;
 }
 .lidl-pic img{
+    display: flex;
     border-radius: 1rem;
-    width: 60px;
+    width: 90px;
+    height: 60px;
     padding: 5px;
 }
 
@@ -34,4 +36,6 @@ border-radius: 8px;
     gap: 1rem;
     justify-content: center;
     padding-top: 1rem;    
+}
+h3{
 }
