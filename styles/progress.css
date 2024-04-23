@@ -1,0 +1,20 @@
+.work-message{
+    background-color: bisque;
+    border-radius: 24px;
+    height: 300px;
+    margin-top: 4rem;
+    
+}
+.text-container-sorry{
+    /* background-color: aqua; */
+    text-align: center;
+    /* display: flexbox; */
+    /* margin-top: 1; */
+    padding-top: 7rem;
+    
+
+}
+.work-title{
+    /* font-family: “Bubblegum Sans”, sans-serif; */
+    font-size: 56px;
+}
