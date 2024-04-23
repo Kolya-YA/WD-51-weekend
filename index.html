@@ -26,71 +26,238 @@
     <header id="header">
       <div class="header-container">
         <div class="logo-container">
-          <a href="#" class="head-Logo">
+          <a href="index.html" class="head-Logo">
             <span class="material-symbols-outlined"> hotel_class </span>
             <p>WEEKEND</p>
           </a>
         </div>
         <nav class="navigation">
           <ul class="nav-buttons">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Activities</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="contact.html">Contacts</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <!-- Header area end -->
 
+
+
+
     <!-- Main area start -->
     <main id="main">
+
+    <!-- hero area start -->
+    <section class="hero">
+          
+      <!-- The video -->
+      <video autoplay muted loop id="myVideo">
+        <source src="assets/hero.mp4" type="video/mp4">
+      </video>
+
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="content">
+        <h1>Let's find out what to do for the next weekend!</h1>
+      </div>
+      </section>
+    <!-- hero area end -->
+
       <div class="wrapper">
-        <section class="hero">
-          <h1>Let's find out what to do for the next weekend!</h1>
-        </section>
+
+         <!-- Latest activities area start -->
         <section class="activites">
-          <h2>Lates Activities</h2>
-          <ul class="activities__list">
-            <li class="activities__item">
-              <a href="#" class="a-card">Paragliding</a>
-            </li>
-            <li class="activities__item">
-              <a href="#" class="a-card">Trail Hiking</a>
-            </li>
-            <li class="activities__item">
-              <a href="#" class="a-card">Boat Tours</a>
-            </li>
-          </ul>
+          <h2>Lates Activities</h2>g
+          <div class="card-container">
+
+             <div class="card">
+                <img src="assets/latest-act-1.jpg" alt="latest activites photo 1">
+
+                <div class="card-content-area">
+                  <h3>Paragliding</h3>
+                  <p>
+                    Get a taste of how the birds are feeling!
+                  Fly into a great adventure and experience extreme and memorable feelings. 
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>143 likes</p>
+                </div>
+                </div>
+            </div> 
+         
+
+             <div class="card">
+                <img src="assets/latest-act-2.jpg" alt="latest activites photo 2">
+
+                <div class="card-content-area">
+                  <h3>Trail Hiking</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptas consequuntur, voluptatem numquam,
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>658 likes</p>
+                </div>
+                </div>
+            </div> 
+         
+
+             <div class="card">
+                <img src="assets/latest-act-3.jpg" alt="latest activites photo 3">
+
+                <div class="card-content-area">
+                  <h3>Boat Tours</h3>
+                  <p>
+                  Lorem ipsum dolor adipisci autem ratione consequatur, sapiente sint quia rem repudiandae explicabo aliquid. 
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>158 likes</p>
+                </div>
+                </div>
+            </div> 
+             
+          </div>
         </section>
-        <section class="activites">
+        <!-- Latest activities area end -->
+
+
+
+         <!-- Most popular activities area start -->
+        <section class="activites most-popular">
           <h2>Most Popular Activities</h2>
-          <ul class="activities__list">
-            <li class="activities__item">
-              <a href="#" class="a-card">Rock Climbing</a>
-            </li>
-            <li class="activities__item">
-              <a href="#" class="a-card">Axe Throwing</a>
-            </li>
-            <li class="activities__item">
-              <a href="#" class="a-card">Wine Tasting</a>
-            </li>
-          </ul>
+          <div class="card-container">
+
+             <div class="card">
+                <img src="assets/popular-1.jpg" alt="popular activites photo 1">
+
+                <div class="card-content-area">
+                  <h3>Rock Climbing</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic reiciendis explicabo expedita facilis quibusdam debitis 
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>2658 likes</p>
+                </div>
+                </div>
+            </div> 
+         
+
+             <div class="card">
+                <img src="assets/popular-2.jpg" alt="popular activites photo 2">
+
+                <div class="card-content-area">
+                  <h3>Axe Throwing</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptas consequuntur, voluptatem numquam,
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>658 likes</p>
+                </div>
+                </div>
+            </div> 
+         
+
+             <div class="card">
+                <img src="assets/popular-3.jpg" alt="popular activites photo 3">
+
+                <div class="card-content-area">
+                  <h3>Wine Tasting</h3>
+                  <p>
+                  Lorem ipsum dolor adipisci autem ratione consequatur, sapiente sint quia rem repudiandae explicabo aliquid. 
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>158 likes</p>
+                </div>
+                </div>
+            </div> 
+             
+          </div>
         </section>
-        <section class="activites">
+        <!-- Most popular activities area end -->
+
+
+
+         <!-- Upcoming activities area start -->
+        <section class="activites upcoming">
           <h2>Upcoming Events</h2>
-          <ul class="activities__list">
-            <li class="activities__item">
-              <a href="#" class="a-card">Group Hike With Alpakas</a>
-            </li>
-            <li class="activities__item">
-              <a href="#" class="a-card">Bike the Alps Tour</a>
-            </li>
-            <li class="activities__item">
-              <a href="#" class="a-card">Paragliding Season Opening</a>
-            </li>
-          </ul>
+          <div class="card-container">
+
+             <div class="card">
+                <img src="assets/upcoming-1.jpg" alt="upcoming activites photo 1">
+
+                <div class="card-content-area">
+                  <h3>Group Hike With Alpakas</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad placeat hic dolore quae soluta aut deleniti odio quam 
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>143 likes</p>
+                </div>
+                </div>
+            </div> 
+         
+
+             <div class="card">
+                <img src="assets/upcoming-2.jpg" alt="upcoming activites photo 2">
+
+                <div class="card-content-area">
+                  <h3>Bike the Alps Tour</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptas consequuntur, voluptatem numquam,
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>658 likes</p>
+                </div>
+                </div>
+            </div> 
+         
+
+             <div class="card">
+                <img src="assets/upcoming-3.jpg" alt="upcoming activites photo 3">
+
+                <div class="card-content-area">
+                  <h3>Paragliding Season Opening</h3>
+                  <p>
+                  Lorem ipsum dolor adipisci autem ratione consequatur, sapiente sint quia rem repudiandae explicabo aliquid. 
+                </p>
+                <div class="likes">
+                  <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    <p>158 likes</p>
+                </div>
+                </div>
+            </div> 
+             
+          </div>
         </section>
+        <!-- Upcoming activities area end -->
+
+
         <section class="partners">
           <h2>Meet our Partners</h2>
           <ul class="partners__list">
@@ -113,7 +280,7 @@
                 <ul class="legal-social__list">
                     <li class="legal-social__item"><a href="#"><img
                                 src="assets/tiktok.svg" alt="TikTok"></a></li>
-                    <li class="legal-social__item"><a href="#"><img
+                    <li class="legal-social__item social-resize"><a href="#"><img
                                 src="assets/fb.svg" alt="Facebook"></a></li>
                     <li class="legal-social__item"><a href="#"><img
                                 src="assets/youtube.svg" alt="YouTube"></a></li>
@@ -141,7 +308,6 @@
                 </div>
             </div>
         </div>
-        <div class="footer__copyright">WD-51 "Weekend" &copy; 2024</div>
       </div>
     </footer>
   </body>
