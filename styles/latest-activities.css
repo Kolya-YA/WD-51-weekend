@@ -2,7 +2,7 @@
     list-style: none;
 
     .latest-activites__item {
-        margin-block-start: 1.5rem;
+        margin-block-start: 2rem;
         box-shadow: 0 0 10px -2px var(--brand-dark-clr);
     }
 
@@ -21,7 +21,7 @@
         object-fit: cover
     }
 
-    
+
 }
 
 .la-card__content {
@@ -33,25 +33,28 @@
 
 
     h2 {
-    margin-block-end: 1em;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
+        margin-block-end: 1em;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
     }
 
     h3 {
         margin-block-end: .3em;
     }
 
-    p {margin: revert;}
+    p {
+        margin: revert;
+    }
 }
 
 .la-card__features {
-    
-    p, ul {
+
+    p {
         color: var(--brand-dark-clr)
     }
 
     ul {
         padding-inline-start: 1.5rem;
+        font-size: .9rem;
     }
 }
