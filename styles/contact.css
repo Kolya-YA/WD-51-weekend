@@ -1,56 +1,63 @@
-main.contact-main{
-    margin: 0 auto;
-    padding-top: 100px;
+main.contact-main {
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-bottom: 5rem;
 }
 
-div.card-img-contact{
-width: 300px;
-display: block;
-overflow: hidden;
-
+.form-container {
+  margin-top: 2.5rem;
+}
+div.card-img-contact {
+  width: 300px;
+  display: block;
+  overflow: hidden;
 }
 
-img.img-contact{
-    display: block;
+img.img-contact {
+  display: block;
 }
-form.input-contact{
-    border: 2px solid#905922;
-    border-left: 0;
-    border-radius: 0 24px 24px 0;
-    padding: 1rem;
-    padding-top: 90px;
-}
-
-input.contact-input{
-    border-radius: 12px;
-    height: 40px;
-    width: 250px;
-    margin-bottom: 1rem;
-    margin-top: 0.3rem;
+form.input-contact {
+  border: 2px solid#905922;
+  border-left: 0;
+  border-radius: 0 24px 24px 0;
+  padding: 1rem;
+  padding-top: 90px;
 }
 
-textarea.contact-input{
-    border-radius: 12px;
-    height: 100px;
-    width: 250px;
-    margin-bottom: 1rem;
-    margin-top: 0.3rem;
-    resize: none;
-    padding: 5px;
+input.contact-input {
+  border-radius: 8px;
+  height: 40px;
+  width: 250px;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
 }
 
-button#contact-button{
-    color: white;
-    background-color: #905922;
-    height: 40px;
-    width: 250px;
-    border: 0;
-    border-radius: 12px;
+textarea.contact-input {
+  border-radius: 8px;
+  height: 100px;
+  width: 250px;
+  border: 1px solid black;
+
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+  resize: none;
+  padding: 5px;
 }
 
-div.form-container{
-    display: flex;
-    border-radius: 24px;
-    overflow: hidden;
-    margin-bottom: 50px;
+button#contact-button {
+  color: white;
+  background-color: #905922;
+  height: 40px;
+  width: 250px;
+  border: 0;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+div.form-container {
+  display: flex;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
